@@ -218,7 +218,7 @@ When creating the data pipeline, you will need to store multiple artefacts for d
 
    3. Upload the downloaded `.csv` files to the `Stocks/` folder. Note that this upload may take some time due to the number of files involved in the process.
 
-   4. Upload the `top_companies.txt` file into the `CompanyNames/` folder.
+   4. Upload the [top_companies.txt](data/top_companies.txt) file into the `CompanyNames/` folder.
 
  - **Configure RDS instance:**
 
@@ -304,7 +304,7 @@ When creating the data pipeline, you will need to store multiple artefacts for d
 
    2. Copy the implemented Python script to your local machine, along with the `Stocks/` data folder if you haven't already.
 
-   3. Use the local data and script to ensure that the processing is executing as expected. The output of the processing script should be a single `.csv` file (`historical_stock_data.csv`) containing the data of companies listed within the `top_companies.txt` file.
+   3. Use the local data and script to ensure that the processing is executing as expected. The output of the processing script should be a single `.csv` file (`historical_stock_data.csv`) containing the data of companies listed within the [top_companies.txt](data/top_companies.txt) file.
 
    4. Following the local testing, create a bash script to both mount the S3 bucket and invoke the data processing performed within this current step. This script should be uploaded into the `Scripts/` folder of the S3 bucket, so consideration should be taken to set the correct path when calling the data processing Python script within this bash file. 
 
