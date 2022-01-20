@@ -34,6 +34,7 @@ The resources below are provided in order to help complete the predict.
 The following actions need to be taken in order to complete the assessments used within the predict:
 - [ ] Create the python processing script from the given notebook
 - [ ] Create an AWS Data Pipeline and generate failure/success SNS email alerts
+- [ ] Sumbit a CSV containing your student and AWS resource details as described in the instructions 
 - [ ] Complete Data Pipeline MCQ
 - [ ] Complete Python Processing MCQ
 
